@@ -13,4 +13,3 @@ int main(){
 	printf("\t2 x 10 = 20\n");
 	return 0;
 }
-
