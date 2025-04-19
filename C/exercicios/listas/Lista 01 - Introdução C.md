@@ -76,34 +76,48 @@ Tópicos: #algoritmos #variaveis #tiposPrimitivos #algoritmos #saida #entrada #s
 52. Dados os catetos `a` e `b` de um triângulo, calcule a hipotenusa (`h = √(a² + b²)`).
 53. Use a fórmula de Heron para calcular a área de um triângulo dados seus três lados (`s = (a+b+c)/2`, `A = √(s(s-a)(s-b)(s-c))`).
 54. Calcule o volume de uma lata de óleo (`V = π * R² * A`).
-55. Faça um programa que leia um número real x e calcule o valor de f(x) = √x+ (x/2) +x^x.(Funções sqrt e pow)    
+55. Faça um programa que leia um número real x e calcule o valor de f(x) = √x+ (x/2) +x^x.(Funções sqrt e pow)
+56.  Escreva um programa que converta coordenadas polares (raio r e ângulo a) em coordenadas cartesianas (abscissa x e ordenada y), de acordo com as fórmulas:
+$$x = r * \cos(a) $$
+$$y = r * \sin(a)$$
+O programa deve capturar os valores em coordenadas polares e exibir as coordenadas cartesianas correspondentes. As funções sin e cos estão disponíveis na biblioteca matemática padrão. 
+57. Considere as equações de movimento para calcular a posição (s) e a velocidade (v) de uma partícula em determinado instante t, dado sua aceleração a, posição inicial s0 e velocidade inicial v0, de acordo com as fórmulas:
+$$s = s_0 + v_0t + a \cdot \frac{t^2}{2}$$
+$$v = v_0 + a \cdot t$$
+Escreva um programa C completo que capture os valores de $s_0$, $v_0$, a e $t$, fornecidos pelo usuário via teclado, e calcule e exiba os valores de s e v. Todos os valores tratados no programa devem ser números reais ( `float ou double` ).
+
 #### **Manipulação de Bits e Tipos**
-56. Escreva um programa que leia um inteiro e mostre sua multiplicação e divisão por 2 usando deslocamento de bits.
-57. Escreva um programa que leia um inteiro e mostre seu complemento bit a bit.
-58. Leia dois inteiros e exiba o deslocamento à esquerda e à direita do primeiro pelo segundo.
-59. Leia dois inteiros e exiba o resultado de `ou exclusivo`, `ou bit a bit` e `e bit a bit`.
-60. Leia um inteiro positivo de três dígitos e inverta seus dígitos (ex: 123 → 321).
-61. Converta uma letra maiúscula em minúscula usando a tabela ASCII.
-62. Ler apenas um valor numérico inteiro curto hexadecimal (minúsculo) e apresentar o valor fornecido, seu valor sucessor e antecessor em maiúsculo. Usar o código de formatação adequado ao tipo de dado em operação.
-63. Ler um valor numérico de ponto flutuante duplo e apresentar apenas o expoente desse valor como do tipo inteiro decimal longo a partir de uma ação de casting explícito. Usar o código de formatação adequado ao tipo de dado em operação.
+58. Escreva um programa que leia um inteiro e mostre sua multiplicação e divisão por 2 usando deslocamento de bits.
+59. Escreva um programa que leia um inteiro e mostre seu complemento bit a bit.
+60. Leia dois inteiros e exiba o deslocamento à esquerda e à direita do primeiro pelo segundo.
+61. Leia dois inteiros e exiba o resultado de `ou exclusivo`, `ou bit a bit` e `e bit a bit`.
+62. Leia um inteiro positivo de três dígitos e inverta seus dígitos (ex: 123 → 321).
+63. Converta uma letra maiúscula em minúscula usando a tabela ASCII.
+64. Ler apenas um valor numérico inteiro curto hexadecimal (minúsculo) e apresentar o valor fornecido, seu valor sucessor e antecessor em maiúsculo. Usar o código de formatação adequado ao tipo de dado em operação.
+65. Ler um valor numérico de ponto flutuante duplo e apresentar apenas o expoente desse valor como do tipo inteiro decimal longo a partir de uma ação de casting explícito. Usar o código de formatação adequado ao tipo de dado em operação.
 #### **Problemas Diversos**
-64. Leia um valor inteiro e calcule o menor número de notas (R$100,R$50, R$20,R$10, R$5,R$2, R$1) para representá-lo.
-65. Calcule o preço da gasolina por litro no Brasil, convertendo de dólar/galão para real/litro (1 galão = 3.7854 litros).
-66. Divida R$780.000,00 entre três ganhadores (46%, 32%, 22%).
-67. Leia quatro valores inteiros e mostre todas as combinações de soma e multiplicação dois a dois. 
-68. Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12 Km/l. O usuário deve fornecer o tempo gasto na viagem e a velocidade média.
+66. Leia um valor inteiro e calcule o menor número de notas (R$100,R$50, R$20,R$10, R$5,R$2, R$1) para representá-lo.
+67. Calcule o preço da gasolina por litro no Brasil, convertendo de dólar/galão para real/litro (1 galão = 3.7854 litros).
+68. Divida R$780.000,00 entre três ganhadores (46%, 32%, 22%).
+69. Leia quatro valores inteiros e mostre todas as combinações de soma e multiplicação dois a dois. 
+70. Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12 Km/l. O usuário deve fornecer o tempo gasto na viagem e a velocidade média.
     - `distancia = tempo * velocidade`
     - O programa deve apresentar os valores da velocidade média, tempo gasto, a distância percorrida e a quantidade de litros utilizada na viagem.
     - Sugestão: trabalhe com valores reais.
-    - litros = (tempo * velocidade) / 12.
+    - litros = (tempo * velocidade) / 12.]
+71. Escreva um programa que calcule o consumo médio de um automóvel; são fornecidos a distância total percorrida e o total de combustível gasto. 
 #### **Formatação Avançada e Tipos Específicos**
-69. Leia um inteiro curto hexadecimal e mostre seu valor, sucessor e antecessor em maiúsculo.
-70. Leia um `double` e mostre apenas seu expoente (usando casting explícito).
-71. Leia um `float` (Celsius) e converta para Fahrenheit no formato `99999.999`.
-72. Leia um `double` (Fahrenheit) e converta para Celsius no formato `9999.9`.
-73. Leia dois `long long` e troque seus valores, exibindo o resultado.
-74. Leia um `char` e mostre seu valor correspondente em `int`.
-75. Leia um inteiro e mostre seu cubo.
+70. Leia um inteiro curto hexadecimal e mostre seu valor, sucessor e antecessor em maiúsculo.
+71. Leia um `double` e mostre apenas seu expoente (usando casting explícito).
+72. Leia um `float` (Celsius) e converta para Fahrenheit no formato `99999.999`.
+73. Leia um `double` (Fahrenheit) e converta para Celsius no formato `9999.9`.
+74. Leia dois `long long` e troque seus valores, exibindo o resultado.
+75. Leia um `char` e mostre seu valor correspondente em `int`.
+76. Leia um inteiro e mostre seu cubo.
 #### **Datas e Strings**
-76. Solicite uma data no formato `dd/mm/aaaa` e a imprima.    
-77. Solicite uma data no formato `aaaa-mm-dd` e a imprima como `dd/mm/aaaa`.
+77. Solicite uma data no formato `dd/mm/aaaa` e a imprima.    
+78. Solicite uma data no formato `aaaa-mm-dd` e a imprima como `dd/mm/aaaa`.
+
+
+
+
