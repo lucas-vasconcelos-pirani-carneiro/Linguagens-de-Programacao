@@ -1,11 +1,4 @@
 # Lista 02 - Condicionais
-
-Disciplina: #computerscience #programacao  
-Tópicos:  #algoritmos #estruturasCondicionais #if #else #switch #C 
-
----
-
-# Lista 02 - Condicionais
 **Disciplina:** #computerscience #programacao  
 **Tópicos:** #algoritmos #estruturasCondicionais #if #else #switch #C
 
@@ -97,7 +90,7 @@ Tópicos:  #algoritmos #estruturasCondicionais #if #else #switch #C
 | ------- | --- | --- | --- | --- |
 | Imposto | 7%  | 12% | 15% | 8%  |
 
-18. Classifique a idade de um nadador:
+15. Classifique a idade de um nadador:
 
 | Categoria  | Idade   |
 |------------|---------|
@@ -106,7 +99,7 @@ Tópicos:  #algoritmos #estruturasCondicionais #if #else #switch #C
 | Juvenil A  | 11 - 13 |
 | Juvenil B  | 14 - 17 |
 
-19. Classifique uma pessoa conforme altura e peso:
+16. Classifique uma pessoa conforme altura e peso:
 
 | Altura      | Até 60 | Entre 60 e 90 | Acima de 90 |
 | ----------- | ------ | ------------- | ----------- |
@@ -114,7 +107,7 @@ Tópicos:  #algoritmos #estruturasCondicionais #if #else #switch #C
 | 1,20 - 1,70 | B      | E             | H           |
 | > 1,70      | C      | F             | I           |
 
-20. Média entre três números, conforme código digitado:
+17. Média entre três números, conforme código digitado:
 
 | Código | Tipo de média |
 |--------|---------------|
@@ -123,15 +116,15 @@ Tópicos:  #algoritmos #estruturasCondicionais #if #else #switch #C
 | 3      | Harmônica     |
 | 4      | Aritmética    |
 
-21. Faça um programa que informe o mês conforme o número (ex: entrada = 4, saída = Abril).
+18. Faça um programa que informe o mês conforme o número (ex: entrada = 4, saída = Abril).
 
-22. Usando `switch`, escreva um programa que leia um número de 1 a 7 e imprima o dia da semana correspondente.
+19. Usando `switch`, escreva um programa que leia um número de 1 a 7 e imprima o dia da semana correspondente.
 
-23. Faça um programa que mostre um menu com 4 operações matemáticas. O usuário escolhe uma e fornece dois valores para realizar a operação.
+20. Faça um programa que mostre um menu com 4 operações matemáticas. O usuário escolhe uma e fornece dois valores para realizar a operação.
 
-24. Verifique se um número inteiro é divisível por 3 ou 5, mas não simultaneamente por ambos.
+21. Verifique se um número inteiro é divisível por 3 ou 5, mas não simultaneamente por ambos.
 
-25. Resolva uma equação do 2º grau:
+22. Resolva uma equação do 2º grau:
    $$ \Delta = b^2 - 4ac $$
    $$ ax^2 + bx + c = 0 $$
 
@@ -141,43 +134,43 @@ Tópicos:  #algoritmos #estruturasCondicionais #if #else #switch #C
    - Se $\Delta > 0$: “Duas raízes reais”
 
 
-26. Cópias a R$ 0,25. Acima de 100 folhas, valor é R$ 0,20 por folha. Informe o total a pagar.
+23. Cópias a R$ 0,25. Acima de 100 folhas, valor é R$ 0,20 por folha. Informe o total a pagar.
 
-27. Categoria de jogador por idade:
+24. Categoria de jogador por idade:
    - Infantil: até 13 anos
    - Juvenil: até 17 anos
    - Sênior: acima de 17 anos
 
-28. Calcule a área de um círculo dado o raio `r`. Testar se `r < 0`.
+25. Calcule a área de um círculo dado o raio `r`. Testar se `r < 0`.
 
-29. Leia o nome e as notas de um aluno. Informe o nome e a média aritmética.
+26. Leia o nome e as notas de um aluno. Informe o nome e a média aritmética.
 
-30. Leia um número e exiba mensagem caso seja maior que 10.
+27. Leia um número e exiba mensagem caso seja maior que 10.
 
-31. Leia um número e diga se está entre 100 e 200.
+28. Leia um número e diga se está entre 100 e 200.
 
-32. Conceda aumento de 10% aos funcionários que recebem até R$ 1.000,00.
+29. Conceda aumento de 10% aos funcionários que recebem até R$ 1.000,00.
 
-33. Calcule a amplitude total ($AT$) de uma série de 5 números:  
+30. Calcule a amplitude total ($AT$) de uma série de 5 números:  
     $$ AT = \text{maior valor} - \text{menor valor} $$
 
-34. Ler 4 inteiros positivos. Exibir os que forem divisíveis por 2 **e** 3.
+31. Ler 4 inteiros positivos. Exibir os que forem divisíveis por 2 **e** 3.
 
-35. Ler um número `float` (até 10 dígitos), multiplicá-lo por 2,5. Exibir no formato `999.99` **somente** se o resultado for maior que 25.99.
+32. Ler um número `float` (até 10 dígitos), multiplicá-lo por 2,5. Exibir no formato `999.99` **somente** se o resultado for maior que 25.99.
 
-36. Ler 4 notas (float), calcular média. Informar se o aluno foi aprovado (média ≥ 5) ou reprovado.
+33. Ler 4 notas (float), calcular média. Informar se o aluno foi aprovado (média ≥ 5) ou reprovado.
 
-37. Ler um inteiro curto entre 1 e 9:
+34. Ler um inteiro curto entre 1 e 9:
    - Se válido: “O valor está na faixa permitida”
    - Senão: “O valor está fora da faixa permitida”
 
-38. Escreva um programa que lê um número inteiro do teclado e imprime `"SIM"` se o número for **par e maior do que 10**, ou **ímpa e menor do que 50**. Caso contrário, o programa deve imprimir `"NÃO"`.
+35. Escreva um programa que lê um número inteiro do teclado e imprime `"SIM"` se o número for **par e maior do que 10**, ou **ímpa e menor do que 50**. Caso contrário, o programa deve imprimir `"NÃO"`.
 
-39. Faça um programa que lê um caractere `F` ou `C`, que indica se o próximo número a ser digitado corresponde à temperatura em **Fahrenheit** ou **Celsius**. Em seguida, o programa deve ler o valor da temperatura e então imprimir o valor correspondente da temperatura na outra unidade de medida.
+36. Faça um programa que lê um caractere `F` ou `C`, que indica se o próximo número a ser digitado corresponde à temperatura em **Fahrenheit** ou **Celsius**. Em seguida, o programa deve ler o valor da temperatura e então imprimir o valor correspondente da temperatura na outra unidade de medida.
 
-40. Faça um programa que leia um ano (valor inteiro) e imprima se ele é **bissexto** ou não. **Obs:** São bissextos todos os anos múltiplos de 400. Não sendo múltiplo de 400, são bissextos todos os anos múltiplos de 4 mas que **não** são múltiplos de 100.
+37. Faça um programa que leia um ano (valor inteiro) e imprima se ele é **bissexto** ou não. **Obs:** São bissextos todos os anos múltiplos de 400. Não sendo múltiplo de 400, são bissextos todos os anos múltiplos de 4 mas que **não** são múltiplos de 100.
 
-41. Faça um programa que leia os três lados de um triângulo e informe se ele é **isósceles**, **escaleno** ou **equilátero**.  
+38. Faça um programa que leia os três lados de um triângulo e informe se ele é **isósceles**, **escaleno** ou **equilátero**.  
 **Obs:**
 
 - Equilátero: três lados iguais
@@ -187,11 +180,11 @@ Tópicos:  #algoritmos #estruturasCondicionais #if #else #switch #C
 - Escaleno: três lados diferentes
     
 
-42. Escreva um programa que determina a data cronologicamente maior de duas datas fornecidas pelo usuário. Cada data deve ser fornecida por três valores inteiros: **dia**, **mês** e **ano**.
+39. Escreva um programa que determina a data cronologicamente maior de duas datas fornecidas pelo usuário. Cada data deve ser fornecida por três valores inteiros: **dia**, **mês** e **ano**.
 
-43. Escreva um programa que lê uma coordenada `(x, y)` do teclado e imprime o **quadrante** em que a coordenada está.
+40. Escreva um programa que lê uma coordenada `(x, y)` do teclado e imprime o **quadrante** em que a coordenada está.
 
-44. Uma pessoa pode se aposentar pelo INSS caso esteja em alguma das situações abaixo:
+41. Uma pessoa pode se aposentar pelo INSS caso esteja em alguma das situações abaixo:
 
 - É do sexo masculino, possui **pelo menos 65 anos** e **pelo menos 10 anos de contribuição**;
     
@@ -203,9 +196,9 @@ Tópicos:  #algoritmos #estruturasCondicionais #if #else #switch #C
     Faça um programa que leia as informações de idade, tempo de contribuição e sexo da pessoa e informe se ela pode se aposentar.
     
 
-45. Faça um programa que lê dois números do teclado e em seguida um caractere que representa uma operação: `+`, `−`, `*`, `/`. Seu programa então deve imprimir o **resultado da operação**.
+42. Faça um programa que lê dois números do teclado e em seguida um caractere que representa uma operação: `+`, `−`, `*`, `/`. Seu programa então deve imprimir o **resultado da operação**.
 
-46. Escreva um programa que receba as medidas dos lados de um triângulo e decida:
+43. Escreva um programa que receba as medidas dos lados de um triângulo e decida:
 
 - Se é um **triângulo retângulo**;
     
@@ -215,9 +208,9 @@ Tópicos:  #algoritmos #estruturasCondicionais #if #else #switch #C
     Seu programa deve lidar com a possibilidade de os números lidos serem negativos.
     
 
-47. Escreva um programa que leia **dez números** e devolva o **segundo maior** deles.
+44. Escreva um programa que leia **dez números** e devolva o **segundo maior** deles.
 
-48. Escreva um programa que leia um **tabuleiro de jogo da velha** e verifique o status do jogo.  
+45. Escreva um programa que leia um **tabuleiro de jogo da velha** e verifique o status do jogo.  
 O tabuleiro é composto de **nove números**, onde:
 
 - O jogador `'O'` é representado por `0`
@@ -228,18 +221,18 @@ O tabuleiro é composto de **nove números**, onde:
     A saída do seu programa deve ser: `'X'`, `'O'`, `'Velha'` ou `'Indefinido'`.
     
 
-49. Escreva um programa que leia três quantias `d`, `m`, e `a`, com `a > 1900`, representando uma data `d/m/a` (dia, mês e ano, respectivamente), e devolva **quantos dias existem entre a data lida e 1/1/1900**.
+46. Escreva um programa que leia três quantias `d`, `m`, e `a`, com `a > 1900`, representando uma data `d/m/a` (dia, mês e ano, respectivamente), e devolva **quantos dias existem entre a data lida e 1/1/1900**.
 
-50. Escreva um programa que leia **quatro números inteiros** e os imprima em **ordem não crescente**.  
+47. Escreva um programa que leia **quatro números inteiros** e os imprima em **ordem não crescente**.  
 Seu programa **não deve usar estruturas de repetição**.
 
-51. Escreva um programa que leia **três palavras de três letras** (a leitura deve ser feita caractere por caractere) e as imprima em **ordem lexicográfica**.  
+48. Escreva um programa que leia **três palavras de três letras** (a leitura deve ser feita caractere por caractere) e as imprima em **ordem lexicográfica**.  
 Seu programa **não deve usar estruturas de repetição** e apenas pode declarar variáveis do tipo `int` ou `char`.
 
-52. Faça um programa que receba como entrada um ano e **imprima a data da Páscoa** naquele ano.  
+49. Faça um programa que receba como entrada um ano e **imprima a data da Páscoa** naquele ano.  
 Você deve fazer uma pesquisa para encontrar a fórmula que calcula a data da Páscoa.
 
-53. Um grupo de cinco tecnomagos está tentando realizar um ritual para conter os avanços da censura na Web. Para isso, cada mago deve conectar seu laptop em uma das pontas de uma rede em formato de pentagrama. Durante o ritual, os laptops precisam se comunicar através dos enlaces de redes.  
+50. Um grupo de cinco tecnomagos está tentando realizar um ritual para conter os avanços da censura na Web. Para isso, cada mago deve conectar seu laptop em uma das pontas de uma rede em formato de pentagrama. Durante o ritual, os laptops precisam se comunicar através dos enlaces de redes.  
 Cada enlace tem um **tempo de atraso** para rotear um pacote.  
 Sua tarefa é escrever um programa que:
 
@@ -249,9 +242,9 @@ Sua tarefa é escrever um programa que:
     
 - Determine o **atraso total mínimo possível** dessa comunicação.
     
-![[questao54.png]]
+![questao54](../img/questao54.png)
 
-55. Considere um terminal de autoatendimento bancário que opera com cédulas nos valores de `1.00`, `5.00`, `10.00`, `50.00` e `100.00` unidades monetárias.  
+51. Considere um terminal de autoatendimento bancário que opera com cédulas nos valores de `1.00`, `5.00`, `10.00`, `50.00` e `100.00` unidades monetárias.  
 O terminal deve:
 
 - Informar o **menor número de cédulas** para uma quantia retirada;
