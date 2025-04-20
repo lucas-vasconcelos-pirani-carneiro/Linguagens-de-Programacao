@@ -1,5 +1,4 @@
-/* 3. Escreva um programa que imprima “Linguagem C” dentro de uma caixa, cujo lados são delimitados por ’-’. */
-
+/* 03.Escreva um programa que imprima “Linguagem C” dentro de uma caixa, cujo lados são delimitados por ’-’. */
 #include <stdio.h>
 
 int main(){

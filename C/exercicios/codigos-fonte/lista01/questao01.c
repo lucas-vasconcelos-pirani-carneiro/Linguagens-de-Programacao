@@ -1,5 +1,4 @@
-/* 01. Escreva um programa que imprima “MC102 - Aprendendo a programar em linguagem C”.*/
-
+/* 01.Escreva um programa que imprima “MC102 - Aprendendo a programar em linguagem C”.*/
 #include <stdio.h>
 
 int main(void){

@@ -242,7 +242,7 @@ Sua tarefa é escrever um programa que:
     
 - Determine o **atraso total mínimo possível** dessa comunicação.
     
-![questao54](../img/questao54.png)
+![[questao54.png]]
 
 51. Considere um terminal de autoatendimento bancário que opera com cédulas nos valores de `1.00`, `5.00`, `10.00`, `50.00` e `100.00` unidades monetárias.  
 O terminal deve:
